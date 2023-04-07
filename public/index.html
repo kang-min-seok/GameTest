@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게임 테스트</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xMp9MvcAs" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSS_GFpoO/elps3DEujprlcYrZ+1nUAG7E1e_pwDf9l6F7RsuSJl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX5"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-MDbvF4HjhZcwd0bZCO64j4D4A4wYTqCFHKUyq2U6WldbU6eorC0jL9+ZxBzJ6Y1D"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4IZLeGUGEhdu4z9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2630113494285660"
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+        
+        .game-card {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 100%;
+            min-height: 150px;
+            padding: 1rem 0rem;
+            background-color: #e9ecef;
+            border-radius: 0.3rem;
+            border: none;
+        }
+
+        .jumbotron {
+            padding: 2rem 1rem;
+            margin-bottom: 2rem;
+            background-color: #e9ecef;
+            border-radius: 0.3rem;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-size: 30px;"> GameTest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container w-75 mt-3">
+        <div class="jumbotron" style="background-color: #E9ECEF;">
+            <h1 style="font-weight: bold;">게임 목록</h1>
+            <hr>
+            <p style="font-weight:500;">
+                게임능력을 테스트 할 수 있는 간단한 게임을 제공하고 있습니다. 원하시는 게임능력을 테스트 해보세요.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card game-card">
+                    <div class="card-body">
+                        <h2 class="card-title">게임 재능 테스트</h2>
+                        <hr>
+                        <p class="card-text">클릭능력과 반응속도를 측정할 수 있는 테스트입니다.</p>
+                        <a href="gameTalentTest.html"class="btn btn-primary">테스트 시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card game-card">
+                    <div class="card-body">
+                        <h2 class="card-title">FPS 반응속도 테스트</h2>
+                        <hr>
+                        <p class="card-text">FPS게임에서의 요소를 반영하여 제작한 반응속도 테스트입니다.</p>
+                        <a href="#" class="btn btn-primary" onclick="alert('제작중입니다.');">테스트 시작</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card game-card">
+                    <div class="card-body">
+                        <h2 class="card-title">커멘드 속도 테스트</h2>
+                        <hr>
+                        <p class="card-text">키보드 방향키를 이용하여 커멘드 속도를 측정하는 테스트입니다.</p>
+                        <a href="#" class="btn btn-primary" onclick="alert('제작중입니다.');">테스트 시작</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 추가 게임 카드를 여기에 추가하세요 -->
+
+    </div>
+
+    
+</body>
+
+</html>
